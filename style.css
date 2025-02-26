@@ -293,6 +293,10 @@ a {
     color: #c32249;
   }
 
+  .hamburger img {
+    width: 180px;
+  }
+
   .logo-res {
     width: 300px;
   }
@@ -490,7 +494,7 @@ video {
   .event-schedule h1 {
     font-size: 1.8rem;
     padding: 1rem 1rem;
-    letter-spacing: 0.1rem;
+    margin-top: 3rem;
   }
   .event-poster img {
     width: 100%;
@@ -722,11 +726,11 @@ video {
   }
   .contact {
     width: fit-content;
-    padding: 1rem 6rem;
+    padding: 1rem 5rem;
   }
 
   .mail {
-    padding: 1rem 5.5rem;
+    padding: 1rem 4rem;
   }
 }
 
