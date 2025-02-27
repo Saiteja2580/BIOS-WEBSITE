@@ -197,7 +197,7 @@ a {
   top: 50%;
   left: 50%;
   z-index: 100;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -30%);
   /* color: black; */
   font-family: "Lobster", serif;
   font-weight: 400;
