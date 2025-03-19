@@ -411,6 +411,176 @@ video {
   }
 }
 
+/* ------------------------------------------------------sposors section------------------------------------------- */
+
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 48rem;
+}
+
+.sponsors h1 {
+  color: white;
+  font-size: 3rem;
+  padding: 1rem 3rem;
+  background-color: #c32249;
+  font-weight: 800;
+}
+
+.corousel-sponsors {
+  width: 70%;
+}
+
+.c-image-sponsor {
+  height: 650px;
+}
+
+@media (max-width: 700px) {
+  .sponsors {
+    margin-top: 60rem;
+  }
+
+  .c-image-sponsor {
+    height: 400px;
+  }
+}
+
+/* -----------------------------------------------technical events------------------------------------------------*/
+
+.technical-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.technical-gallery h1 {
+  color: white;
+  font-size: 3rem;
+  padding: 1rem 3rem;
+  background-color: #c32249;
+  font-weight: 800;
+}
+
+.tech-photos {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.tech-photos img {
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 700px) {
+  .technical-gallery h1 {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    margin-top: 3rem;
+  }
+}
+
+/* ---------------------------------nontechnoical gallery--------------------------------------------- */
+.nontechnical-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 2rem;
+}
+
+.nontechnical-gallery h1 {
+  color: white;
+  font-size: 3rem;
+  padding: 1rem 3rem;
+  background-color: #c32249;
+  font-weight: 800;
+}
+
+.nontech-photos {
+  display: flex;
+  gap: 8rem;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nontech-photos div {
+  align-self: center;
+}
+
+.nontech-photos img {
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 700px) {
+  .nontechnical-gallery h1 {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    margin-top: 3rem;
+  }
+}
+
+/* ------------------------------------------------------sports--------------------------------------------- */
+.sports-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.sports-gallery h1 {
+  color: white;
+  font-size: 3rem;
+  padding: 1rem 3rem;
+  background-color: #c32249;
+  font-weight: 800;
+}
+
+.sports-photos {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8rem;
+}
+
+.sports-photos img {
+  width: 300px;
+  height: 300px;
+}
+
+.event-photo {
+  border-radius: 0.5rem;
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.4s ease-in-out;
+}
+
+.event-photo:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+  .sports-gallery h1 {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+    margin-top: 3rem;
+  }
+}
+
 /* ----------------------------------------event0-schedule------------------------------ */
 
 .event-schedule {
@@ -424,7 +594,7 @@ video {
   gap: 3rem;
 
   z-index: 5;
-  margin-top: 45rem;
+  margin-top: 10rem;
 }
 
 .event-schedule h1 {
@@ -494,7 +664,7 @@ video {
 
 @media (max-width: 700px) {
   .event-schedule {
-    margin-top: 60rem;
+    margin-top: 5rem;
   }
   .event-schedule h1 {
     font-size: 1.8rem;
@@ -577,7 +747,7 @@ video {
   }
 }
 
-/* ---------------------------------------------gallery------------------------------- */
+/* ---------------------------------------------gallery & sponsor------------------------------- */
 
 .gallery {
   display: flex;
